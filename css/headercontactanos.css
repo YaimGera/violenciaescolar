@@ -1,0 +1,84 @@
+#header{
+width: 100%;
+height: auto;
+}
+#titulos-header{
+font-size: 18px;
+text-align: center;
+}
+#content-header{
+width: 100%;
+height: 75px;
+background-color: #333333;
+}
+#article-header{
+font-size: 23px;
+text-align: center;
+background-color: #333333;
+}
+h1 {
+color: rgb(255, 255, 255);
+background-color: #333333;
+border-radius: 1px;
+font-size: 26px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+color: rgb(255, 255, 255);
+}
+button {
+margin: 10px;
+position: relative;
+padding: 10px 15px;
+border: none;
+outline: none;
+background: #000000;
+color: #ffffff;
+cursor: pointer;
+transition: .5s;
+overflow: hidden;
+}
+button:hover {
+color: #fff;
+}
+button span {
+position: absolute;
+background: #fff;
+transition: .5s;
+}
+button span:nth-child(1) {
+width: 100%;
+height: 1px;
+top: 0;
+left: -100%;
+}
+button span:nth-child(2) {
+width: 100%;
+height: 1px;
+bottom: 0;
+right: -100%;
+}
+button span:nth-child(3) {
+width: 1px;
+height: 100%;
+bottom: -100%;
+left: 0;
+}
+button span:nth-child(4) {
+width: 1px;
+height: 100%;
+top: -100%;
+right: 0;
+}
+button:hover span:nth-child(1) {
+left: 0;
+}
+button:hover span:nth-child(2) {
+right: 0;
+}
+button:hover span:nth-child(3) {
+bottom: 0;
+}
+button:hover span:nth-child(4) {
+top: 0;
+}
